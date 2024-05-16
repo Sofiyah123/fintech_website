@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+
+
+/* *{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:62.5%;
+/* }
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+} */
+/* h1,h2,p{
+    /* margin:1.6rem 0; 
+} */
+/* h1{
+    font-weight: 800;
+    font-size:3.6rem; */
+
+/* } */
+/* 
+} */
+/*  /* img{
+    width:100%;
+    height:auto;
+} */
+/* 
+section{
+    padding:100px 0;
+}
+shift + Alt + down arrow key
+ */
+
+@tailwind utilities;
+@layer components {
+    ul{
+        /* @apply hidden mt-[1rem] bg-[whitesmoke]  md:flex md:bg-transparent */
+    }
+    .row{
+        @apply flex flex-col justify-between w-[80%] items-center m-[auto] md:flex md:flex-row ;
+    }
+    h1{
+        @apply font-[800] text-[1.2rem]
+    }
+    h2{
+        @apply my-[1.2rem] text-[800] text-[1.2rem] font-bold;
+    }
+    footer{
+        @apply h-[80px] bg-[#222] text-[#fff] leading-[80px] text-center
+    }
+}
